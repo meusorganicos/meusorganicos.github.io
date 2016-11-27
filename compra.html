@@ -17,6 +17,8 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
     <!-- Latest compiled and minified JavaScript -->
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -47,10 +49,20 @@
             font-family: Novitha;
         }
 
+        footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%        
+        }
+
         span.contact {
             line-height: 40px;
             text-transform: none;
             color: @gray-lighter;
+        }
+        body{
+            background-image: url("back.png");
+            background-size: 100%;
         }
 
     </style>
@@ -64,7 +76,7 @@
                 <div class="col-lg-4 col-mg-4 col-sm-4 col-xs-4 text-left">
                     <a class="btn" href="index.html">voltar</a>
                 </div>
-            <div class="col-lg-12 col-mg-12 col-sm-12 col-xs-12 text-center" style="min-height: 85vh">
+            <div class="col-lg-6 col-mg-6 col-sm-6 col-xs-6 col-md-offset-3 text-center" style="background-color: white;">
                 <h1>Prezado cliente!!</h1>
                 <p>
                     Estamos numa fase de validação do modelo de compra e entrega neste momento.
@@ -72,8 +84,10 @@
                 <p>
                     Para efetivar a compra, solicitamos a gentileza de nos contactar via fone/whats
                 </p>
-                <span class="contact" href="intent://send/+5547988472086#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">
->(047)98847-2086</span>
+                <span class="contact" >(047)98847-2086 </span>
+                <a style="text-decoration: none;color: green;margin-left: 5px" href="intent://send/554788472086#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">
+                    <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+                </a>
                 <h4>Muito obrigado</h4>
                 <h3>Meus Orgânicos</h3>
 
@@ -82,7 +96,7 @@
         </div>
         <footer>
             <div class="row">
-                <div class="col-lg-12" style="background-color: #5cb85c;margin-top: 20px;">
+                <div class="col-lg-12" style="background-color: #38a10a;margin-top: 20px;">
                     <div class="col-lg-4 text-center" style="padding: 10px">
                         <a href="https://www.facebook.com/meusorganicos" target="_blank">
                             <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
