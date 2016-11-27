@@ -26,13 +26,24 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-88012774-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
     <style type="text/css">
         @font-face {
             font-family: Novitha;
             src: url(Novitha.otf);
         }
 
-        footer{
+        footer #thk{
             font-family: Novitha;
         }
 
@@ -61,14 +72,16 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12" style="background-color: #5cb85c;margin-top: 20px;">
-                    <div class="col-lg-4 text-center " style="padding: 10px">
-                        <span>Copyright &copy; Meus Orgânicos 2016</span>
-                    </div>
-                    <div class="col-lg-4 text-center" style="padding: 10px; font-size: 50px">
-                        <span>Obrigado por escolher orgânico</span>
-                    </div>
                     <div class="col-lg-4 text-center" style="padding: 10px">
-                        <span>Copyright &copy; Meus Orgânicos 2016</span>
+                        <a href="https://www.facebook.com/meusorganicos" target="_blank">
+                            <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div id="thk" class="col-lg-4 text-center" style="padding: 10px; font-size: 40px">
+                        <span>Obrigado por escolher organico</span>
+                    </div>
+                    <div class="col-lg-4 text-center " style="padding: 10px; padding-top: 30px;">
+                        <span>Copyright &copy; Meus Organicos 2016</span>
                     </div>
                 </div>
             </div>
